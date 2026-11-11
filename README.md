@@ -17,12 +17,20 @@ Everything here is telemetry, analytics, ad attribution or crash reporting that 
 |---|---|
 | `blocklist.txt` | Domain feed, one name per line, `#` starts a comment. pfBlockerNG fetches it daily from the raw URL. |
 | `regex.txt` | Patterns for names a plain list cannot express (every subdomain under a name that is itself a subdomain). pfBlockerNG cannot fetch regex from a URL, so this file is the source of truth and is copied by hand into DNSBL → Python Group Policy → Regex. Format: `pattern # Name`. |
+| `doh-ips.txt` | IPv4 feed of public DNS resolver addresses, used by a firewall rule that rejects ports 443 and 853 to them, so clients cannot bypass local DNS with DoH / DoT / DoQ to a hard-coded IP. |
 
-Raw feed URL:
+Raw feed URLs:
 
 ```
 https://raw.githubusercontent.com/yuliwilliam/dns-blocklist/main/blocklist.txt
+https://raw.githubusercontent.com/yuliwilliam/dns-blocklist/main/doh-ips.txt
 ```
+
+## Why a hand-made DoH IP list
+
+The DoH hostnames themselves are blocked by pfBlockerNG's built-in DoH list and the HaGeZi DoH list. Clients that skip DNS and connect to a resolver by IP need a firewall rule, and that rule needs a list of IPs.
+
+The HaGeZi DoH IP list was not used because it is built by resolving DoH hostnames, so it also contains shared CDN addresses. On our network some of them were serving a major video app's API and live streams, and blocking them would have broken that app. `doh-ips.txt` only has addresses (and provider-owned ranges) that serve nothing but DNS.
 
 ## How pfBlockerNG treats an entry
 
