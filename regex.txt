@@ -1,0 +1,14 @@
+\.minerva\.devices\.a2z\.com$ # Amazon minerva metrics
+(^|\.)events\.data\.microsoft\.com$ # Windows telemetry
+(^|\.)forester\.a2z\.com$ # Amazon forester metrics
+(^|\.)iadsdk\.apple\.com(\.akadns\.net)?$ # Apple Search Ads attribution
+(^|\.)measure\.office\.net$ # Office network measurement
+(^|\.)events\.data\.msn\.com$ # Edge MSN telemetry
+(^|\.)crash\.xiaohongshu\.com$ # Xiaohongshu crash reports
+\.ingest\.([a-z]{2}\.)?sentry\.io$ # Sentry event ingest
+^log(-[a-z0-9]+)?\.snssdk\.com$ # ByteDance SDK logs
+(^|\.)bugly\.qq\.com$ # Tencent Bugly crash reports
+web-player-tracker\.biliapi\.net$ # Bilibili web player tracker
+(^|\.)telemetry\.zoom\.us$ # Zoom telemetry
+(^|\.)telemetry\.data\.nvidia\.com$ # NVIDIA telemetry
+^http-intake\.logs\.([a-z0-9]+\.)?datadoghq\.(com|eu)$ # Datadog log intake

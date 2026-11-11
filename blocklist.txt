@@ -1,0 +1,29 @@
+# dns-blocklist: telemetry, analytics, ad attribution and crash reporting missed by the upstream lists.
+# See README.md. A registrable domain blocks all of its subdomains; a deeper name blocks only itself.
+
+# --- App SDKs (mobile) ---
+# AppsFlyer attribution SDK: apps use random per-app subdomains (xxxx.inapps / launches / dlsdk / skadsdk)
+appsflyersdk.com
+# Firebase Crashlytics crash reporting and settings
+crashlytics.com
+# iOS app analytics
+app-analytics-services.com
+# Adjust analytics (app.adjust.com redirects are intentionally not blocked)
+analytics.adjust.com
+
+# --- Web analytics ---
+# Hotjar session recording and heatmaps
+hotjar.com
+hotjar.io
+# New Relic browser agent
+js-agent.newrelic.com
+# Twitter / X analytics
+analytics.twitter.com
+
+# --- Vendor telemetry ---
+# Farfetch app telemetry
+telemetry.farfetch.net
+# Uniswap web app metrics
+metrics.interface.gateway.uniswap.org
+# Graylog server telemetry (can also be turned off with telemetry_enabled = false)
+telemetry.graylog.cloud
