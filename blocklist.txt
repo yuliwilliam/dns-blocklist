@@ -6,6 +6,8 @@
 appsflyersdk.com
 # Firebase Crashlytics crash reporting and settings
 crashlytics.com
+# Firebase / Google Analytics for apps (also used by smart TV apps)
+app-measurement.com
 # iOS app analytics
 app-analytics-services.com
 # Adjust analytics (app.adjust.com redirects are intentionally not blocked)
