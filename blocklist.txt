@@ -29,3 +29,5 @@ telemetry.farfetch.net
 metrics.interface.gateway.uniswap.org
 # Graylog server telemetry (can also be turned off with telemetry_enabled = false)
 telemetry.graylog.cloud
+# Thunderbird telemetry (Glean pings)
+incoming-telemetry.thunderbird.net
