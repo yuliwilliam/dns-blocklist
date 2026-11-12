@@ -39,6 +39,14 @@ browser-intake-us5-datadoghq.com
 cloudflareinsights.com
 # GitHub web analytics collector
 collector.github.com
+# Costco web analytics (Adobe Analytics first-party CNAME)
+smetrics.costco.com
+# Intel website user analytics
+customerinsight.intel.com
+# LiveRamp identity / ad tracking (whole domain, including r. and cdn.)
+intake-lr.com
+# Nexx360 ad exchange monitoring beacon
+monitoring.nexx360.io
 
 # --- Vendor telemetry ---
 # Farfetch app telemetry
@@ -55,3 +63,5 @@ telemetry.graylog.cloud
 incoming-telemetry.thunderbird.net
 # Reolink app telemetry
 telemetric-apis.reolink.com
+# UniFi device crash reports
+crash-report-service.svc.ui.com

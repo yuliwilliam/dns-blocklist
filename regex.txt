@@ -15,3 +15,4 @@ web-player-tracker\.biliapi\.net$ # Bilibili web player tracker
 \.log\.aliyuncs\.com$ # Alibaba Cloud log service ingest (video player SDK logs)
 ^eventtracking(-[a-z0-9]+)?\.hubapi\.com$ # HubSpot event tracking
 \.crashtracking\.prod\.ring\.com$ # Ring app crash and session tracking
+\.logs\.netflix\.com$ # Netflix device playback logs (nrdpNN.logs.netflix.com)
