@@ -16,6 +16,8 @@ analytics.adjust.com
 firebaselogging-pa.googleapis.com
 # Taobao push SDK delivery reports
 agoo-report.m.taobao.com
+# Jin10 app usage statistics
+big-data-statistics.jin10.com
 
 # --- Web analytics ---
 # Hotjar session recording and heatmaps
@@ -29,6 +31,12 @@ analytics.twitter.com
 tracking.aws.judge.me
 # Ad conversion pixel
 pixel-for-openai-ads.fly.dev
+# Datadog browser RUM intake (US5 site)
+browser-intake-us5-datadoghq.com
+# Cloudflare Web Analytics beacon (whole domain, including static.cloudflareinsights.com)
+cloudflareinsights.com
+# GitHub web analytics collector
+collector.github.com
 
 # --- Vendor telemetry ---
 # Farfetch app telemetry
@@ -43,3 +51,5 @@ sgreport.wechat.com
 telemetry.graylog.cloud
 # Thunderbird telemetry (Glean pings)
 incoming-telemetry.thunderbird.net
+# Reolink app telemetry
+telemetric-apis.reolink.com
