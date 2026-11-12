@@ -18,6 +18,8 @@ firebaselogging-pa.googleapis.com
 agoo-report.m.taobao.com
 # Jin10 app usage statistics
 big-data-statistics.jin10.com
+# Jin10 ad API (ad slots, ad click stats; quotes and news use other hosts)
+jad-api.jin10.com
 
 # --- Web analytics ---
 # Hotjar session recording and heatmaps
