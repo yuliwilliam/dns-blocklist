@@ -12,6 +12,10 @@ app-measurement.com
 app-analytics-services.com
 # Adjust analytics (app.adjust.com redirects are intentionally not blocked)
 analytics.adjust.com
+# Firebase / Google SDK client logging (firebaseremoteconfig and firebaseappcheck are app features, not blocked)
+firebaselogging-pa.googleapis.com
+# Taobao push SDK delivery reports
+agoo-report.m.taobao.com
 
 # --- Web analytics ---
 # Hotjar session recording and heatmaps
@@ -21,12 +25,20 @@ hotjar.io
 js-agent.newrelic.com
 # Twitter / X analytics
 analytics.twitter.com
+# Judge.me review widget tracking
+tracking.aws.judge.me
+# Ad conversion pixel
+pixel-for-openai-ads.fly.dev
 
 # --- Vendor telemetry ---
 # Farfetch app telemetry
 telemetry.farfetch.net
 # Uniswap web app metrics
 metrics.interface.gateway.uniswap.org
+# Amazon Shopping app behavioral telemetry (whole domain, including api.mshop.bdtelemetry.amazon)
+bdtelemetry.amazon
+# WeChat client reports (only this name; sgshort / sglong / pay hosts are the app itself)
+sgreport.wechat.com
 # Graylog server telemetry (can also be turned off with telemetry_enabled = false)
 telemetry.graylog.cloud
 # Thunderbird telemetry (Glean pings)
