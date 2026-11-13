@@ -65,3 +65,5 @@ incoming-telemetry.thunderbird.net
 telemetric-apis.reolink.com
 # UniFi device crash reports
 crash-report-service.svc.ui.com
+# Next.js CLI usage telemetry (build / dev; can also be turned off with NEXT_TELEMETRY_DISABLED=1)
+telemetry.nextjs.org
