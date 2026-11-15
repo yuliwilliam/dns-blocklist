@@ -67,3 +67,5 @@ telemetric-apis.reolink.com
 crash-report-service.svc.ui.com
 # Next.js CLI usage telemetry (build / dev; can also be turned off with NEXT_TELEMETRY_DISABLED=1)
 telemetry.nextjs.org
+# Netdata agent anonymous telemetry events (can also be turned off with /etc/netdata/.opt-out-from-anonymous-statistics)
+agent-events.netdata.cloud
