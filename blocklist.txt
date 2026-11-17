@@ -69,3 +69,21 @@ crash-report-service.svc.ui.com
 telemetry.nextjs.org
 # Netdata agent anonymous telemetry events (can also be turned off with /etc/netdata/.opt-out-from-anonymous-statistics)
 agent-events.netdata.cloud
+# Taboola content recommendation ads and tracking (news sites)
+taboola.com
+# Magnite (Rubicon Project) ad exchange
+rubiconproject.com
+# Index Exchange ad exchange
+indexww.com
+# Sellwild ad network events
+sellwild.com
+# Cohesion marketing tag collection
+cohesionapps.com
+# Quantum Metric session replay
+quantummetric.com
+# Tealium event collection
+tealiumiq.com
+# Medallia digital analytics (only this name; Medallia surveys are left alone)
+analytics-fe.digital-cloud-us-main.medallia.com
+# OnePlus / HeyTap user tracking (only this name; heytapmobi.com cloud config is the system itself)
+uc-track-gl.heytapmobi.com

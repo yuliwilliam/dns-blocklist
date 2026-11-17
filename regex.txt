@@ -16,3 +16,5 @@ web-player-tracker\.biliapi\.net$ # Bilibili web player tracker
 ^eventtracking(-[a-z0-9]+)?\.hubapi\.com$ # HubSpot event tracking
 \.crashtracking\.prod\.ring\.com$ # Ring app crash and session tracking
 \.logs\.netflix\.com$ # Netflix device playback logs (nrdpNN.logs.netflix.com)
+(^|\.)g\.doubleclick\.net$ # Google ad serving and stats (googleads.g.doubleclick.net stays allowed by the DNSBL whitelist)
+(^|\.)analytics\.yahoo\.com$ # Yahoo analytics
