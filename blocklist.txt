@@ -87,3 +87,13 @@ tealiumiq.com
 analytics-fe.digital-cloud-us-main.medallia.com
 # OnePlus / HeyTap user tracking (only this name; heytapmobi.com cloud config is the system itself)
 uc-track-gl.heytapmobi.com
+# LinkedIn Insight tag pixel (only this name; linkedin.com itself is left alone)
+px.ads.linkedin.com
+# UPS site analytics (only this name; tracking packages is unaffected)
+smetrics.ups.com
+# Amazon publisher ads (sponsored product links inside Amazon may stop opening)
+amazon-adsystem.com
+# Integral Ad Science ad verification (unblock if a video site stalls on an ad)
+adsafeprotected.com
+# Google Analytics (googletagmanager.com and googleadservices.com are left alone to avoid site and ad link breakage)
+google-analytics.com
