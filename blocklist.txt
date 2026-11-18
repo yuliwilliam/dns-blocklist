@@ -91,9 +91,9 @@ uc-track-gl.heytapmobi.com
 px.ads.linkedin.com
 # UPS site analytics (only this name; tracking packages is unaffected)
 smetrics.ups.com
-# Amazon publisher ads (sponsored product links inside Amazon may stop opening)
+# Amazon publisher ads (remove this line if Prime Video ads fail to play or sponsored links inside Amazon stop opening)
 amazon-adsystem.com
-# Integral Ad Science ad verification (unblock if a video site stalls on an ad)
+# Integral Ad Science ad verification (remove this line if Prime Video or another video site stalls on an ad)
 adsafeprotected.com
 # Google Analytics (googletagmanager.com and googleadservices.com are left alone to avoid site and ad link breakage)
 google-analytics.com
