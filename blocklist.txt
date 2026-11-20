@@ -87,6 +87,8 @@ tealiumiq.com
 analytics-fe.digital-cloud-us-main.medallia.com
 # OnePlus / HeyTap user tracking (only this name; heytapmobi.com cloud config is the system itself)
 uc-track-gl.heytapmobi.com
+# OnePlus ColorOS log upload (only this name; other allawntech.com hosts are system services)
+eap-log-cn.allawntech.com
 # LinkedIn Insight tag pixel (only this name; linkedin.com itself is left alone)
 px.ads.linkedin.com
 # UPS site analytics (only this name; tracking packages is unaffected)
@@ -97,3 +99,5 @@ amazon-adsystem.com
 adsafeprotected.com
 # Google Analytics (googletagmanager.com and googleadservices.com are left alone to avoid site and ad link breakage)
 google-analytics.com
+# Google ad cookie sync and conversion service (only this name; googleads.g.doubleclick.net stays allowed for ad links)
+adservice.google.com
