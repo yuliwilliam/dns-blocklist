@@ -89,6 +89,8 @@ analytics-fe.digital-cloud-us-main.medallia.com
 uc-track-gl.heytapmobi.com
 # OnePlus ColorOS log upload (only this name; other allawntech.com hosts are system services)
 eap-log-cn.allawntech.com
+# Unidentified data endpoint queried by Douyin, behind a generic CDN landing page (only this name; remove this line if Douyin feed or live streams break)
+sdktt.data.tianwenca.com
 # LinkedIn Insight tag pixel (only this name; linkedin.com itself is left alone)
 px.ads.linkedin.com
 # UPS site analytics (only this name; tracking packages is unaffected)
