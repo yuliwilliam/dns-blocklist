@@ -63,6 +63,8 @@ telemetry.graylog.cloud
 incoming-telemetry.thunderbird.net
 # Reolink app telemetry
 telemetric-apis.reolink.com
+# Reolink cloud P2P relay for remote viewing (only this name; pushx.reolink.com push notifications are left alone)
+p2p.reolink.com
 # UniFi device crash reports
 crash-report-service.svc.ui.com
 # Next.js CLI usage telemetry (build / dev; can also be turned off with NEXT_TELEMETRY_DISABLED=1)
