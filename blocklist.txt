@@ -20,6 +20,21 @@ agoo-report.m.taobao.com
 big-data-statistics.jin10.com
 # Jin10 ad API (ad slots, ad click stats; quotes and news use other hosts)
 jad-api.jin10.com
+# ByteDance / Volcengine app performance monitoring uploads (only these names)
+mon.toutiaocloud.com
+mon.toutiaocloud.net
+# Xiaohongshu app performance monitoring and crash reports
+apm-native.rnote.com
+crash.rnote.com
+# Meituan app event reporting and analytics
+report.meituan.com
+analytics.meituan.net
+metrics-picture.dreport.meituan.net
+# MoEngage marketing analytics SDK
+sdk-02.moengage.com
+sdk-04.moengage.com
+# Firebase Crashlytics report upload
+crashlyticsreports-pa.googleapis.com
 
 # --- Web analytics ---
 # Hotjar session recording and heatmaps
@@ -27,6 +42,8 @@ hotjar.com
 hotjar.io
 # New Relic browser agent
 js-agent.newrelic.com
+# New Relic log ingest
+log-api.newrelic.com
 # Twitter / X analytics
 analytics.twitter.com
 # Judge.me review widget tracking
@@ -47,6 +64,18 @@ customerinsight.intel.com
 intake-lr.com
 # Nexx360 ad exchange monitoring beacon
 monitoring.nexx360.io
+# Pinterest conversion tag
+ct.pinterest.com
+# Optimizely experiment event logging (experiment config from cdn.optimizely.com is left alone)
+logx.optimizely.com
+# LaunchDarkly analytics events (flag evaluation uses other hosts)
+events.launchdarkly.com
+# Split.io impression and event upload (flag definitions come from sdk.split.io)
+events.split.io
+# LinkedIn real user monitoring
+rum15.perf.linkedin.com
+# Framer hosted site analytics
+events.framer.com
 
 # --- Vendor telemetry ---
 # Farfetch app telemetry
@@ -71,6 +100,10 @@ crash-report-service.svc.ui.com
 telemetry.nextjs.org
 # Netdata agent anonymous telemetry events (can also be turned off with /etc/netdata/.opt-out-from-anonymous-statistics)
 agent-events.netdata.cloud
+# NVIDIA GeForce Experience / NVIDIA app telemetry
+telemetry.gfe.nvidia.com
+# Homebrew usage analytics (can also be turned off with HOMEBREW_NO_ANALYTICS=1)
+analytics.brew.sh
 # Taboola content recommendation ads and tracking (news sites)
 taboola.com
 # Magnite (Rubicon Project) ad exchange
@@ -87,6 +120,7 @@ quantummetric.com
 tealiumiq.com
 # Medallia digital analytics (only this name; Medallia surveys are left alone)
 analytics-fe.digital-cloud-us-main.medallia.com
+analytics-fe.digital-cloud-uk.medallia.eu
 # OnePlus / HeyTap user tracking (only this name; heytapmobi.com cloud config is the system itself)
 uc-track-gl.heytapmobi.com
 # OnePlus ColorOS log upload (only this name; other allawntech.com hosts are system services)
