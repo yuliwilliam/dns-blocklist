@@ -23,9 +23,24 @@ jad-api.jin10.com
 # ByteDance / Volcengine app performance monitoring uploads (only these names)
 mon.toutiaocloud.com
 mon.toutiaocloud.net
+# Douyin ad delivery (only this name; the sibling ads5-normal-lq.zijieapi.com is already blocked upstream)
+ads5-normal-hj.zijieapi.com
+# Douyin monitoring uploads (only these names; remove these lines if Douyin feed or live streams break)
+mon0-misc-hl.amemv.com
+mon11-misc-hl.amemv.com
+monbk.amemv.com
 # Xiaohongshu app performance monitoring and crash reports
 apm-native.rnote.com
 crash.rnote.com
+# Xiaohongshu ad images (only these names; sibling ad image hosts such as ads-img-al.xhscdn.com are already blocked upstream)
+ads-i1.xhscdn.com
+ads-i2.xhscdn.com
+ads-i3.xhscdn.com
+ads-i4.xhscdn.com
+ads-i8.xhscdn.com
+# UBiX ad exchange SDK
+adx-data-u1.ubixioe.com
+adx-cfg-u1.ubixioe.com
 # Meituan app event reporting and analytics
 report.meituan.com
 analytics.meituan.net
@@ -76,6 +91,8 @@ events.split.io
 rum15.perf.linkedin.com
 # Framer hosted site analytics
 events.framer.com
+# Shopify storefront event tracking (only this name; checkout and store pages use other hosts)
+monorail-edge.shopifysvc.com
 
 # --- Vendor telemetry ---
 # Farfetch app telemetry
