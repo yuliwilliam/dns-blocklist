@@ -156,3 +156,35 @@ adsafeprotected.com
 google-analytics.com
 # Google ad cookie sync and conversion service (only this name; googleads.g.doubleclick.net stays allowed for ad links)
 adservice.google.com
+# Xandr (AppNexus) ad exchange
+adnxs.com
+# DoubleVerify ad verification (only these names)
+pub.doubleverify.com
+tpsc-video-uw.doubleverify.com
+# Adobe Advertising cookie sync (only this name)
+sync-tm.everesttech.net
+# Comscore audience measurement in apps (only this name)
+census-app-x.scorecardresearch.com
+# Adobe and Xfinity site analytics (only these names; the sites themselves are unaffected)
+sstats.adobe.com
+metrics.xfinity.com
+# LinkedIn Insight tag script (only this name; px.ads.linkedin.com is blocked above)
+snap.licdn.com
+# Datadog browser RUM intake, US3 region (only this name)
+browser-intake-us3-datadoghq.com
+# Segment and Heap event intake (only these names; their loader scripts are left alone)
+api.segment.io
+c.us.heap-api.com
+# Sentry crash reporting for one app (only this name)
+o33249.ingest.us.sentry.io
+# Coralogix browser RUM intake (only this name)
+ingress.eu2.rum-ingress-coralogix.com
+# Mapbox usage telemetry (only this name; maps still load)
+events.mapbox.com
+# Ad and e-commerce tracking pixels (only these names)
+pixel.pointmediatracker.com
+server-pixel.shopdoen.com
+# AfterShip / Automizely store analytics (only this name)
+www.automizely-analytics.com
+# Gladly support chat analytics (only this name; the chat itself is unaffected)
+analytics.us-1.gladly.chat
