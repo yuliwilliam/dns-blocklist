@@ -188,3 +188,5 @@ server-pixel.shopdoen.com
 www.automizely-analytics.com
 # Gladly support chat analytics (only this name; the chat itself is unaffected)
 analytics.us-1.gladly.chat
+# Tencent Cloud RUM (Aegis SDK) Silicon Valley report endpoint, used by a shopping site
+rumt-us.com
